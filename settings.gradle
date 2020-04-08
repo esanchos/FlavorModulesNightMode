@@ -1,0 +1,1 @@
+include ':app', ':licensemanager', ':antivirus', ':shared_theme'

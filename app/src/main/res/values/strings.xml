@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlavorMaster</string>
+    <string name="login_username_hint">Usuário</string>
+    <string name="login_password_hint">Senha</string>
+    <string name="login_enter_button_text">Entrar</string>
+    <string name="login_signup_button_text">Criar conta</string>
+</resources>

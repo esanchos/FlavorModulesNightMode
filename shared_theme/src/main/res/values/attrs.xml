@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="buttonBorderRadius" format="dimension"/>
+    <attr name="textAppearanceHeadline1" format="color"/>
+
+</resources>

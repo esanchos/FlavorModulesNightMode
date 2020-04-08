@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">?attr/colorButtonNormal</item>
+        <item name="android:windowBackground">@color/colorAppBackground</item>
+        <item name="buttonBorderRadius">@dimen/buttonRadius</item>
+        <item name="android:buttonStyle">@style/OutlinedButton</item>
+        <item name="textAppearanceHeadline1">@color/textAppearanceHeadline1</item>
+    </style>
+
+    <style name="OutlinedButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/default_button</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">@null</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+    </style>
+
+    <style name="ShapedButton" parent="OutlinedButton">
+        <item name="android:background">@drawable/default_button_shaped</item>
+        <item name="android:textColor">@color/colorButtonTextShaped</item>
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LicenseManager</string>
+    <string name="settings_button_save">Salvar</string>
+    <string name="settings_button_cancel">Cancelar</string>
+    <string name="settings_title">Configurações</string>
+    <string name="settings_night_mode">Modo noturno</string>
+</resources>
